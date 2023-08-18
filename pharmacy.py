@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 ## SQL DATABASE CODE
 import time
 import mysql.connector
-conn = mysql.connector.connect(user='root',password='Rohan@2387',host='localhost',database='hr1')
+conn = mysql.connector.connect(user='####',password='####7',host='localhost',database='####')
 c = conn.cursor()
 
 def add_bg_from_url():
@@ -207,7 +207,7 @@ def admin():
 
     elif choice == "About":
         st.subheader("DBMS Mini Project")
-        st.subheader("By Ritika Patil,Rohan bagawade, Rohit Andhale,Ritwik Meshram,Rutwik Powar,Sachin Satale")
+        st.subheader("By Rohan bagawade")
 
 
 def getauthenicate(username, password):
